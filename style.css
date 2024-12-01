@@ -1,0 +1,25 @@
+body {
+    background: #b8e3e9;
+}
+
+.container {
+    display: flex;
+    gap: 2px;
+    border: 1px solid darkgreen;
+    flex-flow: row wrap;
+
+    height: 90vh;
+    width: 90vh;
+}
+
+.grid {
+    flex: 0 auto;
+    min-height: 20px;
+    min-width: 40px;
+
+    max-height: 100px;
+    max-width: 100px;
+
+
+    background-color: #C71585;
+}
