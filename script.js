@@ -1,9 +1,9 @@
-const containerEl = document.querySelector(".container")
+const container = document.querySelector(".container")
 
 function createGrid(size = 16) {
     const grid = document.createElement("div")
     grid.classList.add("grid")
-    containerEl.appendChild(grid)
+    container.appendChild(grid)
     grid.innerHTML = ''
 
     if (size > 100 || size < 2) {
@@ -22,4 +22,4 @@ function createGrid(size = 16) {
     }
 }
 
-createGrid(32)
+createGrid()

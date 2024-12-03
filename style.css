@@ -1,7 +1,10 @@
+body {
+    background: #b8e3e9;
+}
 
 .container {
-    width: 500px; /* Tamanho fixo do container */
-    height: 500px; /* Tamanho fixo do container */
+    width: 800px; /* Tamanho fixo do container */
+    height: 600px; /* Tamanho fixo do container */
     border: 1px solid #000; /* Apenas para visualização */
     display: flex;
     justify-content: center;
@@ -21,5 +24,5 @@
 
 .grid div {
     box-sizing: border-box;
-    border: 1px solid #b8e3e9;
+    border: 1px solid #c71585;
 }
