@@ -1,6 +1,6 @@
 const containerEl = document.querySelector(".container")
 
-function createGrid(size) {
+function createGrid(size = 16) {
     const grid = document.createElement("div")
     grid.classList.add("grid")
     containerEl.appendChild(grid)
@@ -22,4 +22,4 @@ function createGrid(size) {
     }
 }
 
-createGrid(16)
+createGrid(32)
