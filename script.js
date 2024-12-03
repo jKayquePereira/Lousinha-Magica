@@ -6,11 +6,11 @@ function createGrid(size) {
     containerEl.appendChild(grid)
     grid.innerHTML = ''
 
-    const cellSize = 100 / size
-
     if (size > 100 || size < 2) {
         size = 16
     }
+
+    const cellSize = 100 / size
 
     for (let i = 0; i < size * size; i++) {
         const cell = document.createElement("div")
@@ -23,4 +23,3 @@ function createGrid(size) {
 }
 
 createGrid(16)
-
