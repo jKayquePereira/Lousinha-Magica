@@ -17,7 +17,6 @@ function createGrid(size = 16) {
 
         cell.style.flex = `0 0 ${cellSize}%`
         cell.style.height = `${cellSize}%`
-        cell.classList.add("cell")
         grid.appendChild(cell)
     }
 }
