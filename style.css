@@ -3,13 +3,13 @@ body {
 }
 
 .container {
-    width: 800px; /* Tamanho fixo do container */
-    height: 600px; /* Tamanho fixo do container */
-    border: 1px solid #000; /* Apenas para visualização */
+    width: 800px;
+    height: 600px;
+    border: 1px solid #1D361B;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Impede estouro do container */
+    overflow: hidden;
 }
 
 
@@ -18,24 +18,28 @@ body {
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-
-    /*background-color: #C71585;*/
 }
 
 .grid div {
     box-sizing: border-box;
-    border: 1px solid #c71585;
+    border: 1px solid #1D361B;
 }
 
-.inputGridSize {
+.inputGridSize, .buttonReset {
     height: 40px;
-    width: 200px;
+    width: 210px;
     margin-top: 5px;
     text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
     background-color: #c71585;
     color: #b8e3e9;
 }
 
 .inputGridSize::placeholder {
     color: #b8e3e9;
+}
+
+.buttonReset {
+    margin-left: 25px;
 }

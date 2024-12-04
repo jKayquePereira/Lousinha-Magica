@@ -25,13 +25,13 @@ function createGrid(size = 16) {
 
 createGrid()
 
-function gridSize() {
+function gridInput() {
     const input = document.createElement("input")
     input.classList.add("inputGridSize")
     input.type = "number"
     input.min = "2"
     input.max = "100"
-    input.placeholder = "Tamanho da grade"
+    input.placeholder = "TAMANHO DA GRADE"
     document.body.appendChild(input)
 
     input.addEventListener("change", () => {
@@ -43,6 +43,17 @@ function gridSize() {
             alert("Insira um número válido.")
         }
     })
+
+
+    const button = document.createElement("button")
+    button.textContent = "RESETAR"
+    button.classList.add("buttonReset")
+    document.body.appendChild(button)
+
+    button.addEventListener("click", () => {
+        createGrid(16)
+        input.value = ""
+    })
 }
 
-gridSize()
+gridInput()
