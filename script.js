@@ -17,6 +17,8 @@ function createGrid(size = 16) {
 
         cell.style.flex = `0 0 ${cellSize}%`
         cell.style.height = `${cellSize}%`
+        cell.addEventListener("mouseover", () =>
+        {cell.style.backgroundColor = "#c71585"})
         grid.appendChild(cell)
     }
 }
