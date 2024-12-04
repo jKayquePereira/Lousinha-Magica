@@ -26,6 +26,7 @@ function createGrid(size = 16) {
 createGrid()
 
 function gridInput() {
+
     const input = document.createElement("input")
     input.classList.add("inputGridSize")
     input.type = "number"

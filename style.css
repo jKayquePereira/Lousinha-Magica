@@ -1,14 +1,19 @@
 body {
+    display: flex;
+    flex-direction: column;
     background: #b8e3e9;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    width: 800px;
-    height: 600px;
+    width: 50%;
+    height: 80%;
     border: 1px solid #1D361B;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     overflow: hidden;
 }
 
@@ -28,7 +33,7 @@ body {
 .inputGridSize, .buttonReset {
     height: 40px;
     width: 210px;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-size: 16px;
     box-sizing: border-box;
@@ -38,8 +43,4 @@ body {
 
 .inputGridSize::placeholder {
     color: #b8e3e9;
-}
-
-.buttonReset {
-    margin-left: 25px;
 }
