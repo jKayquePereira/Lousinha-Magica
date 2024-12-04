@@ -26,3 +26,16 @@ body {
     box-sizing: border-box;
     border: 1px solid #c71585;
 }
+
+.inputGridSize {
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #c71585;
+    color: #b8e3e9;
+}
+
+.inputGridSize::placeholder {
+    color: #b8e3e9;
+}
